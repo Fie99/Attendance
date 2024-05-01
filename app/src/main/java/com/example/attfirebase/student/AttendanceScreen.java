@@ -1,14 +1,12 @@
 package com.example.attfirebase.student;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -20,7 +18,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.attfirebase.R;
-import com.example.attfirebase.Records.PersonalAttended;
 import com.example.attfirebase.attendance.PersonalAttendance;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -114,7 +111,7 @@ public class AttendanceScreen extends AppCompatActivity  {
                                     Bundle bundle = new Bundle();
                                     bundle.putString("UNIT_ID", spinnerValue);
                                     bundle.putString("STU_ID", studentID);
-                                    Intent intent = new Intent(AttendanceScreen.this, PersonalAttended.class);
+                                    Intent intent = new Intent(AttendanceScreen.this, PersonalAttendance.class);
                                     intent.putExtras(bundle);
                                     startActivity(intent);
                                 }

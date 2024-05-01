@@ -1,7 +1,5 @@
 package com.example.attfirebase.lecturer;
 
-import static androidx.fragment.app.FragmentManager.TAG;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -12,10 +10,7 @@ import android.os.Bundle;
 import android.util.Log;
 
 import com.example.attfirebase.R;
-import com.example.attfirebase.Records.Attended;
 import com.example.attfirebase.Records.PdfGeneratorActivity;
-import com.example.attfirebase.attendance.PersonalAttendance;
-import com.example.attfirebase.units.StudentUnits;
 import com.example.attfirebase.units.StudentUnitsItem;
 import com.example.attfirebase.units.UnitsAdapter;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;

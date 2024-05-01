@@ -1,7 +1,5 @@
 package com.example.attfirebase.units;
 
-import static androidx.fragment.app.FragmentManager.TAG;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -12,18 +10,12 @@ import android.os.Bundle;
 import android.util.Log;
 
 import com.example.attfirebase.R;
-import com.example.attfirebase.Records.Attended;
 import com.example.attfirebase.Records.PdfGeneratorActivity;
-import com.example.attfirebase.Records.PersonalAttended;
-import com.example.attfirebase.attendance.PersonalAttendance;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.CollectionReference;
-import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.Query;
