@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/unit1" android:title="Business Law"/>
+    <item android:id="@+id/unit2" android:title="Research methodology"/>
+    <item android:id="@+id/unit3" android:title="Financial management"/>
+
+</menu>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".attendance.AttendedFragment">
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/attendedRV"
+    android:layout_marginTop="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    android:background="@drawable/reef"
+    android:scrollbars="vertical"
+    tools:listitem="@layout/attendance_rv_layout">
+
+</androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>
